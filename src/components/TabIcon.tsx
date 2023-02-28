@@ -7,7 +7,7 @@ export const TabIcon = ({
     iconName,
     iconColor,
 }: {
-    visibleBadge: boolean;
+    visibleBadge?: boolean;
     iconName: string;
     iconColor: string;
 }) => {
